@@ -1,0 +1,179 @@
+
+.navbar-brand {
+	font-size: 2.5em;
+	margin: 20px;
+}
+
+nav:hover {
+	color: #000;
+	background-color: rgba(209, 209, 208, 0.8); 
+	transition: 1s;
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+
+}
+
+ul li {
+	text-align: center;
+}
+body {
+	background-color: black;
+	background: url(./assets/picbk.jpg) no-repeat center center fixed ;
+	background-size: cover;
+}
+#head {
+	margin-left: 0;
+	margin-right: 10px;
+	transition: 1s;
+	text-align: center;
+	font-family: 'Notable', sans-serif;
+	font-weight: 100;
+	font-size: 2.5em;
+	letter-spacing: 10px;
+	cursor: pointer;
+	color: white;
+}
+
+#head:hover {
+    letter-spacing:20px;
+    color: white; 
+	transition: 1s;
+	
+	
+}
+
+.title {
+	color: grey;
+	/*border-radius: 50px 0 0 0 ;
+	border: 3px solid grey;
+	border-bottom: none;*/
+	width: 100%;
+	height: 10vh;
+	font-family: 'Montserrat Subrayada', sans-serif;
+	text-align: right;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0px;
+	font-size: 2em; 
+	
+	transition: 1s;
+}
+
+.title:hover{
+	transition: 1s;
+	
+	color: white;
+	font-size: 3em;
+	/*animation: bounce;  referring directly to the animation's @keyframe declaration 
+  animation-duration: 2s;*/
+	box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+  0 12.5px 10px rgba(0, 0, 0, 0.06),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+  0 100px 80px rgba(0, 0, 0, 0.12);
+}
+p {
+	margin: 0px;
+	padding: 4px;
+	/*border: 2px solid grey;
+	border-radius: 0 0 50px ;*/
+	width: 100%;
+	/*height: 150px;*/
+	margin-left: auto;
+	margin-right: auto;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1.5em;
+	letter-spacing: 2px;
+	font-weight: 100;
+	line-height: 25px;
+	color: white;
+}
+
+.row {
+	width: 100%;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-4 {
+    float: left;
+    
+  }
+  
+  .col-lg-4 {
+    width: 33.3333333333333%;
+  }
+  
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+	.col-md-6, .col-md-12 {
+    float: left;
+    
+  }
+  
+  .col-md-6 {
+    width: 50%;
+  }
+  
+  .col-md-12 {
+  	margin-left: -20px;
+    width: 105%;
+  }
+
+}
+
+@media (max-width: 767px) {
+	p {
+	font-size: 1em; 
+	line-height: 20px
+	}
+}
+
+
+#mac:hover {
+	transition: 1s;
+	background: url(./assets/mac.jpg) no-repeat center center;
+	background-size: cover;
+	color: white;
+	border-radius: 50px 0 50px;
+	/*text-shadow: 2px 2px 2px white;*/
+
+}
+
+#windows:hover {
+	transition: 1s;
+	background: url(./assets/windows.jpg) no-repeat center center;
+	background-size: cover;
+	color: white;
+	border-radius: 50px 0 50px;
+	/*text-shadow: 2px 2px 2px white;*/
+}
+
+#linux:hover {
+	transition: 1s;
+	background: url(./assets/linux.jpg) no-repeat center center;
+	background-size: cover;
+	color: white;
+	border-radius: 50px 0 50px;
+	/*text-shadow: 2px 2px 2px white;*/
+}
+
+.navbar-toggle {
+	margin-top: 25px;
+}
+
+.border {
+	width: 100%;
+	padding: 0;
+	border: 3px solid grey;
+	
+}
